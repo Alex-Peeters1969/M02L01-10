@@ -1,0 +1,48 @@
+body {
+  background: white;
+}
+
+.square {
+  display: block;
+  width: 500px;
+  height: 500px;
+  margin: 50px auto;
+  position: relative;
+  border: dotted 1px #358a39;
+  background: #358a39;
+}
+
+.square__circle {
+  background: white;
+  display: block;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 0px;
+  position: absolute;
+  top: 125px;
+  left: 125px;
+}
+
+.square--reverse {
+  background: white;
+  display: block;
+  width: 500px;
+  height: 500px;
+  margin: 50px auto;
+  position: relative;
+  border: dotted 1px #358a39;
+}
+
+.square--reverse__circle {
+  background: #358a39;
+  display: block;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 0px;
+  position: absolute;
+  top: 125px;
+  left: 125px;
+}
+/*# sourceMappingURL=styles.css.map */

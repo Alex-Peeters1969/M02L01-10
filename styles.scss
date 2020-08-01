@@ -1,0 +1,23 @@
+@import "constants";
+
+body {
+  background: white;
+}
+
+.square {
+  @include square();
+  background: rgb(53, 138, 57);
+  &__circle {
+    background: white;
+    @include circle();
+  }
+}
+
+.square--reverse {
+  background: white;
+  @include square();
+  &__circle {
+    background: rgb(53, 138, 57);
+    @include circle();
+  }
+}
